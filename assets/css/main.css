@@ -32,6 +32,27 @@ body {
 	line-height: 1;
 }
 
+.project-image {
+	object-fit: contain;
+	height: 500px;
+	width: 500px;
+	max-width: 90vw;
+}
+
+#personal-image {
+	max-height: 1000px;
+	max-width: 90vw;
+	text-align: center;
+	margin: auto;
+}
+
+#image-and-resume {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
 ol, ul {
 	list-style: none;
 }
